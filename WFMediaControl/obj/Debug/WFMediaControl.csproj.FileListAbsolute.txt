@@ -1,0 +1,10 @@
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\bin\Debug\WFMediaControl.exe.config
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\bin\Debug\WFMediaControl.exe
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\bin\Debug\WFMediaControl.pdb
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.frmMain.resources
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.Properties.Resources.resources
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.csproj.GenerateResource.cache
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.exe
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.pdb
