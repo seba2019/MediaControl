@@ -8,7 +8,7 @@ namespace MediaControl.Hubs
 {
     public class MediaControlHub : Hub
     {
-        public async Task SendAction(string mediaAction)
+        public async Task SendAction(int mediaAction)
         {
             await Clients.Others.SendAsync("MediaAction", mediaAction);
         }

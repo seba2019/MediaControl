@@ -49,7 +49,7 @@ namespace MediaControl
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapHub<MediaControlHub>("/controlHub");
+                endpoints.MapHub<MediaControlHub>("controlHub");
             });
         }
     }

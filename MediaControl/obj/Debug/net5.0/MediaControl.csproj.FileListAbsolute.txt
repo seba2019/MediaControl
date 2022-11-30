@@ -354,3 +354,6 @@ C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\MediaControl\obj\Debug\ne
 C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\MediaControl\obj\Debug\net5.0\ref\MediaControl.dll
 C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.pdb
 C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.genruntimeconfig.cache
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\MediaControl\bin\Debug\net5.0\Services.dll
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\MediaControl\bin\Debug\net5.0\Services.pdb
+C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\MediaControl\bin\Debug\net5.0\libman.json

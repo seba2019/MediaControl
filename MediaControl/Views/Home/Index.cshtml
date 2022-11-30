@@ -1,11 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@using Services.Enum
+<button onclick="play()">Play</button>
 
-<button>Play</button>
 
-@section Scripts{ 
-    <script type="text/javascript">
-        
-    </script>
-}
+<script type="text/javascript">
+           var _conexion = new signalR.HubConnectionBuilder().withUrl("controlHub").build();
+            _conexion.start()
+                .then(() => { console.log("Conexion exitosa"); })
+                .catch(() => { console.log("conexion fallida"); });
+            function play()
+            {
+                _conexion.invoke("SendAction",@((int)eMediaAction.Play_Pause));
+            }
+        //$(document).ready(() => {
+
+        //})
+
+</script>

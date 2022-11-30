@@ -257,6 +257,16 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
       }
     }
   },
@@ -728,11 +738,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.9"
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.9",
+      "Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -761,7 +777,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\Services\\Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
