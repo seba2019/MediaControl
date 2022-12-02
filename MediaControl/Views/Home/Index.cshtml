@@ -2,22 +2,54 @@
     ViewData["Title"] = "Home Page";
 }
 @using Services.Enum
-<button onclick="executeAction(@((int)eMediaAction.Play_Pause))">Play/Pause || </button>
-<button onclick="executeAction(@((int)eMediaAction.NextSong))"> Siguiente cancion >></button>
-<button onclick="executeAction(@((int)eMediaAction.PrevSong))"> << Cancion anterior</button>
-<button onclick="executeAction(@((int)eMediaAction.UpVol))"> + Subir volumen</button>
-<button onclick="executeAction(@((int)eMediaAction.DownVol))"> - Bajar volumen</button>
+<div class="container-fluid d-grid gap-2">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+            <button class="btn btn-lg btn-outline-success w-100" 
+                    onclick="executeAction(@((int)eMediaAction.PrevSong))">
+                <i class="fa fa-backward-step fa-4x"></i>
+            </button>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+            <button class="btn btn-lg btn-outline-success w-100" 
+                    onclick="executeAction(@((int)eMediaAction.Play_Pause))">
+            <i class="fa fa-play fa-4x"></i> <i class="fa fa-pause fa-4x"></i>
+            </button>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+            <button class="btn btn-lg btn-outline-success w-100" 
+                    onclick="executeAction(@((int)eMediaAction.NextSong))">
+            <i class="fa fa-forward-step fa-4x"></i>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+            <button 
+                    class="btn btn-lg btn-outline-success w-100" 
+                    onclick="executeAction(@((int)eMediaAction.DownVol))">
+            <i class="fa fa-minus fa-4x"></i>
+            </button>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+            <button class="btn btn-lg btn-outline-success w-100" 
+                    onclick="executeAction(@((int)eMediaAction.UpVol))">
+            <i class="fa fa-plus fa-4x"></i>
+            </button>
+        </div>
+    </div>
+</div>
 
 
 <script type="text/javascript">
-           var _conexion = new signalR.HubConnectionBuilder().withUrl("controlHub").build();
-            _conexion.start()
-                .then(() => { console.log("Conexion exitosa"); })
+    
+    var _conexion = new signalR.HubConnectionBuilder().withUrl("controlHub").build();
+    _conexion.start()
+        .then(() => { console.log("Conexion exitosa"); })
         .catch(() => { console.log("conexion fallida"); });
 
-            function executeAction(idAction)
-            {
-                console.log(idAction);
-                _conexion.invoke("SendAction", idAction);
-            }
+    function executeAction(idAction)
+    {
+        _conexion.invoke("SendAction", idAction);
+    }
 </script>

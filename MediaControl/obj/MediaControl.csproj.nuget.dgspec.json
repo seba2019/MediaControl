@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\MediaControl\\MediaControl.csproj": {}
+    "D:\\Proyectos\\MediaControl\\MediaControl\\MediaControl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\MediaControl\\MediaControl.csproj": {
+    "D:\\Proyectos\\MediaControl\\MediaControl\\MediaControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\MediaControl\\MediaControl.csproj",
+        "projectUniqueName": "D:\\Proyectos\\MediaControl\\MediaControl\\MediaControl.csproj",
         "projectName": "MediaControl",
-        "projectPath": "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\MediaControl\\MediaControl.csproj",
+        "projectPath": "D:\\Proyectos\\MediaControl\\MediaControl\\MediaControl.csproj",
         "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\MediaControl\\obj\\",
+        "outputPath": "D:\\Proyectos\\MediaControl\\MediaControl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\Services\\Services.csproj"
+              "D:\\Proyectos\\MediaControl\\Services\\Services.csproj": {
+                "projectPath": "D:\\Proyectos\\MediaControl\\Services\\Services.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\Services\\Services.csproj": {
+    "D:\\Proyectos\\MediaControl\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\Proyectos\\MediaControl\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\Services\\Services.csproj",
+        "projectPath": "D:\\Proyectos\\MediaControl\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\Services\\obj\\",
+        "outputPath": "D:\\Proyectos\\MediaControl\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1wixpQqtOHLkHaLXd3sf+BgJLGF/4J8afIDEplR8nW0c+tTkGDFpM62nzUmI46WRofSmbZaWaCh83gJZF1txSA==",
+  "dgSpecHash": "sG1hJL7bsZ/LkMlRi+w3ueSCFEb+N+OZ8ZUl30jVlbh2lrKugUk42CaYzZzTwo8f1ygZ4ZfPilQ1K/cxGcTFpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sebastian\\Desktop\\Files\\Projects\\MediaControl\\MediaControl\\MediaControl.csproj",
+  "projectFilePath": "D:\\Proyectos\\MediaControl\\MediaControl\\MediaControl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.9\\microsoft.aspnetcore.mvc.razor.extensions.5.0.9.nupkg.sha512",
     "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.9\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.9.nupkg.sha512",
