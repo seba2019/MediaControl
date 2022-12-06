@@ -116,7 +116,6 @@ D:\Proyectos\MediaControl\WFMediaControl\bin\Debug\System.Text.Json.xml
 D:\Proyectos\MediaControl\WFMediaControl\bin\Debug\System.Threading.Channels.xml
 D:\Proyectos\MediaControl\WFMediaControl\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Proyectos\MediaControl\WFMediaControl\bin\Debug\System.ValueTuple.xml
-D:\Proyectos\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.csproj.AssemblyReference.cache
 D:\Proyectos\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.frmMain.resources
 D:\Proyectos\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.Properties.Resources.resources
 D:\Proyectos\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.csproj.GenerateResource.cache

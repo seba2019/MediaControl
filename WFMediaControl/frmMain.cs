@@ -21,7 +21,7 @@ namespace WFMediaControl
         [DllImport("user32.dll")]
         public static extern void keybd_event(byte virtualKey, byte scanCode, uint flags, IntPtr extraInfo);
 
-        public string _url = "http://localhost:46470/controlHub";
+        public string _url = "http://192.168.0.5:46470/";
         public HubConnection hubConection;
 
         public frmMain()

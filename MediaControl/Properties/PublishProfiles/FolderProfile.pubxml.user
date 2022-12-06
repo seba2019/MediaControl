@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>D:\Compilaciones\MediacontrolWeb</_PublishTargetUrl>
-    <History>True|2022-12-02T02:46:09.8546096Z;True|2022-12-01T23:13:29.7581212-03:00;</History>
+    <History>True|2022-12-06T02:17:57.8369675Z;True|2022-12-01T23:46:09.8546096-03:00;True|2022-12-01T23:13:29.7581212-03:00;</History>
   </PropertyGroup>
 </Project>
