@@ -123,3 +123,4 @@ D:\Proyectos\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.csproj.CoreCom
 D:\Proyectos\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.csproj.CopyComplete
 D:\Proyectos\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.exe
 D:\Proyectos\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.pdb
+D:\Proyectos\MediaControl\WFMediaControl\obj\Debug\WFMediaControl.csproj.AssemblyReference.cache

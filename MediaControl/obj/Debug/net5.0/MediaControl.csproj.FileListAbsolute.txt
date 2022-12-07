@@ -366,7 +366,6 @@ D:\Proyectos\MediaControl\MediaControl\bin\Debug\net5.0\MediaControl.deps.json
 D:\Proyectos\MediaControl\MediaControl\bin\Debug\net5.0\MediaControl.runtimeconfig.json
 D:\Proyectos\MediaControl\MediaControl\bin\Debug\net5.0\MediaControl.runtimeconfig.dev.json
 D:\Proyectos\MediaControl\MediaControl\bin\Debug\net5.0\MediaControl.dll
-D:\Proyectos\MediaControl\MediaControl\bin\Debug\net5.0\ref\MediaControl.dll
 D:\Proyectos\MediaControl\MediaControl\bin\Debug\net5.0\MediaControl.pdb
 D:\Proyectos\MediaControl\MediaControl\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 D:\Proyectos\MediaControl\MediaControl\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -698,7 +697,6 @@ D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.MvcApplicat
 D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.RazorAssemblyInfo.cache
 D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.RazorAssemblyInfo.cs
 D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\staticwebassets\MediaControl.StaticWebAssets.Manifest.cache
-D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\staticwebassets\MediaControl.StaticWebAssets.xml
 D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\scopedcss\bundle\MediaControl.styles.css
 D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.TagHelpers.input.cache
 D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.TagHelpers.output.cache
@@ -718,3 +716,5 @@ D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.dll
 D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\ref\MediaControl.dll
 D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.pdb
 D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\MediaControl.genruntimeconfig.cache
+D:\Proyectos\MediaControl\MediaControl\bin\Debug\net5.0\ref\MediaControl.dll
+D:\Proyectos\MediaControl\MediaControl\obj\Debug\net5.0\staticwebassets\MediaControl.StaticWebAssets.xml

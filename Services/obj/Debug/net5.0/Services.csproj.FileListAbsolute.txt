@@ -12,7 +12,6 @@ C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\Services\obj\Debug\net5.0
 C:\Users\Sebastian\Desktop\Files\Projects\MediaControl\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
 D:\Proyectos\MediaControl\Services\bin\Debug\net5.0\Services.deps.json
 D:\Proyectos\MediaControl\Services\bin\Debug\net5.0\Services.dll
-D:\Proyectos\MediaControl\Services\bin\Debug\net5.0\ref\Services.dll
 D:\Proyectos\MediaControl\Services\bin\Debug\net5.0\Services.pdb
 D:\Proyectos\MediaControl\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
 D:\Proyectos\MediaControl\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
@@ -22,3 +21,4 @@ D:\Proyectos\MediaControl\Services\obj\Debug\net5.0\Services.csproj.CoreCompileI
 D:\Proyectos\MediaControl\Services\obj\Debug\net5.0\Services.dll
 D:\Proyectos\MediaControl\Services\obj\Debug\net5.0\ref\Services.dll
 D:\Proyectos\MediaControl\Services\obj\Debug\net5.0\Services.pdb
+D:\Proyectos\MediaControl\Services\bin\Debug\net5.0\ref\Services.dll
