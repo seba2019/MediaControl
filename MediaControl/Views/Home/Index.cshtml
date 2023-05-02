@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Services.Enum
+<div class="container text-center mt-3">
+
+    <div class="row justify-content-center">
+        <div class="col">
+            <button class="btn btn-lg btn-outline-success h-100 w-100" 
+                    onclick="executeAction(@((int)eMediaAction.PrevSong))">
+                <i class="fa fa-backward-step fa-4x"></i>
+            </button>
+        </div>
+        <div class="col">
+            <button class="btn btn-lg btn-outline-success h-100 w-100" 
+                    onclick="executeAction(@((int)eMediaAction.Play_Pause))">
+            <i class="fa fa-play fa-4x"></i> <i class="fa fa-pause fa-4x"></i>
+            </button>
+        </div>
+        <div class="col">
+            <button class="btn btn-lg btn-outline-success h-100 w-100" 
+                    onclick="executeAction(@((int)eMediaAction.NextSong))">
+            <i class="fa fa-forward-step fa-4x"></i>
+            </button>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <button 
+                    class="btn btn-lg btn-outline-success h-100 w-100" 
+                    onclick="executeAction(@((int)eMediaAction.DownVol))">
+            <i class="fa fa-minus fa-4x"></i>
+            </button>
+        </div>
+        <div class="col">
+            <button class="btn btn-lg btn-outline-success h-100 w-100" 
+                    onclick="executeAction(@((int)eMediaAction.UpVol))">
+            <i class="fa fa-plus fa-4x"></i>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <img src="/img/media-logo.png" class="w-100 fix-bottom" />
+            @*<h1 class="text-logo fix-bottom text-success">Mediacontrol</h1>*@
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    
+    var _conexion = new signalR.HubConnectionBuilder().withUrl("controlHub").build();
+    _conexion.start()
+        .then(() => { console.log("Conexion exitosa"); })
+        .catch(() => { console.log("conexion fallida"); });
+
+    function executeAction(idAction)
+    {
+        _conexion.invoke("SendAction", idAction);
+    }
+</script>
